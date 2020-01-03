@@ -2,10 +2,9 @@
 # Run this on the main ROM folder
 
 # Repos
-git clone https://github.com/TheGabrielHoward/device_google_marlin -b ten device/google/marlin
-git clone https://github.com/shagbag913/lineage_kernel_google_marlin -b lineage-17.0 kernel/google/marlin
-git clone https://github.com/TheGabrielHoward/vendor_google -b ten vendor/google
-git clone https://github.com/DerpLab/platform_prebuilts_clang_host_linux-x86 -b ten clang/host/linux-x86
+git clone https://github.com/TheGabrielHoward/device_google_marlin -b pie device/google/marlin
+git clone https://github.com/LR-Devices/Dank_marlin -b dank kernel/google/marlin
+git clone https://github.com/TheGabrielHoward/vendor_google -b pie vendor/google
 
 # Starting Builds
 . b*/e*
